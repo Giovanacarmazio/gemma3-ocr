@@ -1,22 +1,23 @@
-# Gemma-3 OCR App
+# Aplicativo OCR Gemma-3
 
-A computer vision application powered by **Gemma-3 Vision** and **Streamlit** that runs entirely locally on your machine. This app performs OCR (Optical Character Recognition) and extracts structured text directly from images.
+Uma aplicação de visão computacional desenvolvida com **Gemma-3 Vision** e **Streamlit**, totalmente executada localmente em sua máquina. Este app realiza OCR (Reconhecimento Óptico de Caracteres) e extrai texto estruturado diretamente de imagens.
 
-## 🚀 Features
-- 100% local execution (no cloud dependencies)
-- OCR functionality
-- Structured text extraction from images using Gemma-3
+## 🚀 Funcionalidades
 
-## 🛠️ Installation & Setup (Windows)
+- Execução 100% local (sem dependências em nuvem)
+- Reconhecimento Óptico de Caracteres (OCR)
+- Extração de texto estruturado de imagens com o modelo Gemma-3
 
-### 1. Install Ollama
+## 🛠️ Instalação e Configuração (Windows)
 
-Download and install Ollama for Windows from the official website:  
+### 1. Instalação do Ollama
+
+Baixe e instale o Ollama para Windows através do site oficial:  
 ➡️ [https://ollama.com/download](https://ollama.com/download)
 
-### 2. Pull the Gemma-3 Vision model
+### 2. Baixar o modelo Gemma-3 Vision
 
-After installing Ollama, open a terminal (Command Prompt, PowerShell or Windows Terminal) and run:
+Após a instalação do Ollama, abra um terminal (Prompt de Comando, PowerShell ou Windows Terminal) e execute o seguinte comando:
 
 ```bash
 ollama run gemma3:12b
